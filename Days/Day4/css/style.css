@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    color: rgb(19 232 21);
+    font-size: 300%;
+    text-shadow: 2px 2px 4px black;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+.p1 {
+    line-height: 5px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    font-size: 40px;
+    border: solid;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.ascii-art-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* Margin to separate it from other elements */
+}
+
+pre {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    white-space: pre; /* Keeps the text as preformatted */
+    font-family: monospace; /* Keeps the text in a fixed-width font */
+    overflow: auto; /* Enables scrolling if the content overflows */
+}
