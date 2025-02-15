@@ -1,0 +1,51 @@
+
+div {
+  border: solid black;
+  width: 280px;
+  text-align: center;
+  margin: auto;
+  padding: 10px 100px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-family: arial;
+  text-align: center;
+  line-height: 44px;;
+}
+
+p {
+  font-family: verdana;
+}
+
+img {
+  width: 300px;
+  border: solid;
+  border-width: 3px;
+  margin: 10px;
+  vertical-align: center;
+  display: inline-block;
+}
+
+a {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+  animation: blink 0.9s infinite alternate;
+  text-align: center;
+}
+
+@keyframes blink {
+  from { opacity: 1; }
+  to {opacity: 0;}
+}
+
+pre {
+  border: solid;
+  display: inline-block;
+  white-space: pre;
+}
+
+body {
+  width: 1300px;
+}
