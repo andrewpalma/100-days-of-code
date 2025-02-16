@@ -1,0 +1,250 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: visible;
+}
+.aqua-box-wrapper {
+  position: absolute;
+  z-index: 12; /* Higher than rain's z-index */
+  pointer-events: none; /* Ensures interaction goes through to elements below */
+  width: 100%; /* Full width of container */
+  height: 100%; /* Full height of container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-1 {
+  padding: 5px 200px;
+  text-align: center;
+  border: solid 4px;
+  width: 250px;
+  background-color: aquamarine; /* Semi-transparent aquamarine */
+  mix-blend-mode: multiply;
+  display: inline-block;
+  z-index: 1; /* Higher z-index to stay above raindrops */
+  animation: border-glow 5s infinite;
+  pointer-events: auto; 
+}
+.div-page,
+.div-page2,
+.div-page3,
+.div-page4,
+.div-page5,
+.div-page6 {
+  border: solid;
+  padding: 0;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(240, 240, 240, 0.5);
+  position: absolute;
+  animation: glow 5s infinite;
+}
+.div-page {
+  animation: escalator-scale-right-to-left 7s infinite linear, glow 5s infinite;
+  transform-origin: right;
+  z-index: 1;
+}
+.div-page2 {
+  animation: escalator-scale-left-to-right 7s infinite linear 2s, glow 5s infinite;
+  transform-origin: left;
+  z-index: 2;
+}
+.div-page3 {
+  animation: escalator-scale-bottom-to-top 7s infinite linear 4s, glow 5s infinite;
+  transform-origin: bottom;
+  z-index: 3;
+}
+.div-page4 {
+  animation: escalator-scale-top-to-bottom 7s infinite linear 6s, glow 5s infinite;
+  transform-origin: top;
+  z-index: 4;
+}
+.div-page5 {
+  animation: escalator-scale-diagonal-tl-br 7s infinite linear 8s, glow 5s infinite;
+  transform-origin: top left;
+  z-index: 5;
+}
+.div-page6 {
+  animation: escalator-scale-diagonal-bl-tr 7s infinite linear 10s, glow 5s infinite;
+  transform-origin: bottom left;
+  z-index: 6;
+}
+@keyframes border-glow {
+  0% {
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+  }
+  100% {
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+  }
+}
+@keyframes glow {
+  0% {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+  }
+  25% {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+  50% {
+    border-color: green;
+    box-shadow: 0 0 5px green;
+  }
+  75% {
+    border-color: yellow;
+    box-shadow: 0 0 5px yellow;
+  }
+  100% {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+  }
+}
+@keyframes escalator-scale-right-to-left {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}
+@keyframes escalator-scale-left-to-right {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes escalator-scale-bottom-to-top {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0);
+  }
+}
+@keyframes escalator-scale-top-to-bottom {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes escalator-scale-diagonal-tl-br {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0, 0);
+  }
+}
+@keyframes escalator-scale-diagonal-bl-tr {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0, 0);
+  }
+}
+/* Sun Styles */
+.sun {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 30px yellow;
+  animation: sun-pulse 5s infinite alternate;
+  z-index: 9; /* Below rain but above other elements */
+}
+/* Rain Effect */
+.rain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10; /* Higher than .div-1 */
+}
+.rain-drop {
+  position: absolute;
+  bottom: 100%;
+  width: 2px;
+  height: 50px;
+  background: rgba(0, 0, 255, 0.6);
+  animation: rain 1s linear infinite;
+}
+@keyframes sun-pulse {
+  0% {
+    box-shadow: 0 0 200px yellow;
+    transform: scale(2);
+  }
+  100% {
+    box-shadow: 0 0 500px yellow, 0 0 100px rgba(255, 255, 0, 0.5);
+    transform: scale(3);
+  }
+}
+@keyframes rain {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh);
+    opacity: 0;
+  }
+}
+/* Generate multiple raindrops while avoiding the sun and moving boxes */
+/* Raindrop Positions */
+/* We'll place raindrops at positions that exclude the sun (top right corner) and the div-1 element (center) */
+/* Positioning Raindrops */
+/* Adjust these values to ensure they don't overlap with the sun or the central box */
+.rain-drop:nth-child(1) { left: 5%; animation-delay: 0s; }
+.rain-drop:nth-child(2) { left: 15%; animation-delay: 0.1s; }
+.rain-drop:nth-child(3) { left: 25%; animation-delay: 0.2s; }
+.rain-drop:nth-child(4) { left: 35%; animation-delay: 0.3s; }
+.rain-drop:nth-child(5) { left: 45%; animation-delay: 0.4s; }
+.rain-drop:nth-child(6) { left: 55%; animation-delay: 0.5s; }
+.rain-drop:nth-child(7) { left: 65%; animation-delay: 0.6s; }
+.rain-drop:nth-child(8) { left: 75%; animation-delay: 0.7s; }
+.rain-drop:nth-child(9) { left: 85%; animation-delay: 0.8s; }
+.rain-drop:nth-child(10) { left: 95%; animation-delay: 0.9s; }
+.rain-drop:nth-child(11) { left: 10%; animation-delay: 1s; }
+.rain-drop:nth-child(12) { left: 20%; animation-delay: 1.1s; }
+.rain-drop:nth-child(13) { left: 30%; animation-delay: 1.2s; }
+.rain-drop:nth-child(14) { left: 40%; animation-delay: 1.3s; }
+.rain-drop:nth-child(15) { left: 50%; animation-delay: 1.4s; }
+.rain-drop:nth-child(16) { left: 60%; animation-delay: 1.5s; }
+.rain-drop:nth-child(17) { left: 70%; animation-delay: 1.6s; }
+.rain-drop:nth-child(18) { left: 80%; animation-delay: 1.7s; }
+/* Prevent raindrops from overlapping sun by setting their range further out */
+.rain-drop:nth-child(1) { --random: 0.1; }
+.rain-drop:nth-child(2) { --random: 0.2; }
+.rain-drop:nth-child(3) { --random: 0.3; }
+.rain-drop:nth-child(4) { --random: 0.4; }
+.rain-drop:nth-child(5) { --random: 0.5; }
+.rain-drop:nth-child(6) { --random: 0.6; }
+.rain-drop:nth-child(7) { --random: 0.7; }
+.rain-drop:nth-child(8) { --random: 0.8; }
+.rain-drop:nth-child(9) { --random: 0.9; }
+.rain-drop:nth-child(10) { --random: 1; }
+      /* Prevent raindrops from appearing in the center where .div-1 is */
+.rain-drop:nth-child(even) {
+  left: calc(5% + (90% * random())); /* Random positions */
+}
+.rain-drop:nth-child(odd) {
+  left: calc(5% + (90% * random())); /* Different random positions */
+}
