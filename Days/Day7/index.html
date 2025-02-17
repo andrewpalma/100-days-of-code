@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <title>Coding Day 7</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: rgb(74, 197, 202);
+      font-family: monospace;
+      color: green;
+    }
+
+    .container-right {
+      display: flex;
+      align-items: flex-start; /* Aligns items at the start of the cross axis */
+    }
+
+    .container-left {
+      display: flex;
+      flex-direction: row-reverse; /* This reverses the order of flex items */
+      align-items: flex-start; /* Aligns items at the start of the cross axis */
+      padding-top: 10px;
+    }
+
+    .black, .white {
+      border: solid;
+      padding: 8px;
+    }
+
+    .black {
+      border-color: rgb(1, 1, 1);
+    }
+
+    .white {
+      border-width: 4px;
+      border-color: rgb(255, 255, 255);
+    }
+
+    .right {
+      width: 350px;
+    }
+
+    .left {
+      width: 350px;
+      padding-top: 20px;
+      
+    }
+
+    .quote-box-left {
+      margin-top: 50px;
+      margin-left: 20px; /* Adds some space between the image and the quote */
+    }
+
+    .quote-box-right {
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+
+    h3 {
+      margin-bottom: 50px;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .no-box {
+      margin-bottom: 30px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Programming For The Sake Of Programming</h1>
+  <div class="black">
+    <div class="white">
+      <div class="black">
+        <div class="white">
+          <div class="black">
+            <div class="container-left">
+              <div class="image-div">
+                <figure>
+                  <img class="right" src="img/linus-image.jpg" title="Linus Torvalds" alt="Stylized portrait of Linus Torvalds">
+                  <figcaption>Image by Grok, created by xAI</figcaption>
+                </figure>
+              </div>
+              <div class="quote-box-linus">
+                <h3>On programming:</h3>
+                <blockquote cite="https://www.goodreads.com/author/quotes/92867.Linus_Torvalds"><br>
+                  Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. - <b>Linus Torvalds</b>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-right">
+    <div class="image-div">
+      <figure>
+        <img class="left" src="img/gates-image.jpg" title="Bill Gates" alt="Stylized portrait of Bill Gates">
+        <figcaption class="no-box">Image by Grok, created by xAI</figcaption>
+      </figure>
+    </div>
+    <div class="quote-box-left">
+      <h3>On growing:</h3>
+      <blockquote cite="https://www.codecademy.com/resources/blog/inspirational-coding-quotes/">
+        “Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.”- <b>Bill Gates</b>
+      </blockquote>
+    </div>
+  </div>
+
+
+  <div class="black">
+    <div class="white">
+      <div class="black">
+        <div class="white">
+          <div class="black">
+            <div class="container-left">
+              <div class="image-div">
+                <figure>
+                  <img class="left" src="img/rossum-image.jpg" title="Linus Torvalds" alt="Stylized portrait of Guido Van Rossum">
+                  <figcaption>Image by Grok, created by xAI</figcaption>
+                </figure>
+              </div>
+              <div class="quote-box-right">
+                <h3>On reading:</h3>
+                <blockquote cite="https://www.bookey.app/quote-author/guido-van-rossum"><br>
+                  Code is read much more often than it is written, and thus the ability to read code is more important than the ability to write code. - <b>Guido Van Rossum</b>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
