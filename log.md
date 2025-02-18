@@ -1,30 +1,71 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+## Day 1: February 9, 2025
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+Today’s Progress: Created a small HTML page with some things I learned from a tutorial not too long ago. I worked with a div border box, learned about <span style="color: blue;">HTTP</span>, <span style="color: blue;">HTML</span>, and <span style="color: blue;">DNS</span>.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+Thoughts: Learned some fundamentals and enjoyed practicing new concepts.  
+Link to work: [Coding day 1](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day1)
 
-**Link to work:** [Calculator App](http://www.example.com)
+---
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+## Day 2: February 10, 2025
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+Today’s Progress: Learned a lot about the Command Line Interface (CLI) and practiced using it. Integrated a ‘ToolTip’ into a paragraph in HTML for my self-assignment.
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+Thoughts: The CLI commands are super useful, and I’ve made some progress understanding them.  
+Link to work: [Coding day 2](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day2)
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+---
 
+## Day 3: February 11, 2025
 
-### Day 1: June 27, Monday
+Today’s Progress: Continued working on the CLI. Memorized more commands and practiced them.  
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+Thoughts: The more I use the CLI, the more efficient I’ll become.  
+Link to work: [Coding day 3](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day3)
 
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+---
 
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+## Day 4: February 12, 2025
+
+Today’s Progress: Learned more about HTML and worked with @ChatGPTapp and @MSFTCopilot to build a cool HTML CLI simulation app. Practiced typing regular commands.
+
+Thoughts: I’m improving my command memorization and building useful tools with HTML.  
+Link to work: [Coding day 4](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day4)
+
+---
+
+## Day 5: February 13, 2025
+
+Today’s Progress: Practiced and reviewed what I’ve learned. Worked with AI models and explored ASCII escape codes.  
+
+Thoughts: The more I practice, the more I understand. I’m gaining confidence every day.  
+Link to work: [Coding day 5](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day5)
+
+---
+
+## Day 6: February 14, 2025
+
+Today’s Progress: Built cool things with AI models today and practiced Python and HTML.
+
+Thoughts: Combining AI and coding is exciting. I’m starting to make more interactive projects.  
+Link to work: [Coding day 6](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day6)
+
+---
+
+## Day 7: February 15, 2025
+
+Today’s Progress: More HTML practice today. I spent some time reading and learning new parts of HTML.  
+
+Thoughts: It’s important to review and expand on what I’ve already learned.  
+Link to work: [Coding day 7](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day7)
+
+---
+
+## Day 8: February 16, 2025
+
+Today’s Progress: Made cool HTML animations, followed a guide, tried new things with AI, and tinkered with my own projects. I created a cascading effect with HTML and CSS.
+
+Thoughts: It’s great experimenting with new effects and seeing the results come to life.  
+Link to work: [Coding day 8](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day8)
