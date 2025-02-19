@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-## Day 1: February 9, 2025
+## Day 1: February 10, 2025
 
 Today’s Progress: Created a small HTML page with some things I learned from a tutorial not too long ago. I worked with a div border box, learned about <span style="color: blue;">HTTP</span>, <span style="color: blue;">HTML</span>, and <span style="color: blue;">DNS</span>.
 
@@ -9,7 +9,7 @@ Link to work: [Coding day 1](https://github.com/andrewpalma/100-days-of-code/tre
 
 ---
 
-## Day 2: February 10, 2025
+## Day 2: February 11, 2025
 
 Today’s Progress: Learned a lot about the Command Line Interface (CLI) and practiced using it. Integrated a ‘ToolTip’ into a paragraph in HTML for my self-assignment.
 
@@ -18,7 +18,7 @@ Link to work: [Coding day 2](https://github.com/andrewpalma/100-days-of-code/tre
 
 ---
 
-## Day 3: February 11, 2025
+## Day 3: February 12, 2025
 
 Today’s Progress: Continued working on the CLI. Memorized more commands and practiced them.  
 
@@ -27,7 +27,7 @@ Link to work: [Coding day 3](https://github.com/andrewpalma/100-days-of-code/tre
 
 ---
 
-## Day 4: February 12, 2025
+## Day 4: February 13, 2025
 
 Today’s Progress: Learned more about HTML and worked with @ChatGPTapp and @MSFTCopilot to build a cool HTML CLI simulation app. Practiced typing regular commands.
 
@@ -36,7 +36,7 @@ Link to work: [Coding day 4](https://github.com/andrewpalma/100-days-of-code/tre
 
 ---
 
-## Day 5: February 13, 2025
+## Day 5: February 14, 2025
 
 Today’s Progress: Practiced and reviewed what I’ve learned. Worked with AI models and explored ASCII escape codes.  
 
@@ -45,7 +45,7 @@ Link to work: [Coding day 5](https://github.com/andrewpalma/100-days-of-code/tre
 
 ---
 
-## Day 6: February 14, 2025
+## Day 6: February 15, 2025
 
 Today’s Progress: Built cool things with AI models today and practiced Python and HTML.
 
@@ -54,7 +54,7 @@ Link to work: [Coding day 6](https://github.com/andrewpalma/100-days-of-code/tre
 
 ---
 
-## Day 7: February 15, 2025
+## Day 7: February 16, 2025
 
 Today’s Progress: More HTML practice today. I spent some time reading and learning new parts of HTML.  
 
@@ -63,9 +63,17 @@ Link to work: [Coding day 7](https://github.com/andrewpalma/100-days-of-code/tre
 
 ---
 
-## Day 8: February 16, 2025
+## Day 8: February 17, 2025
 
 Today’s Progress: Made cool HTML animations, followed a guide, tried new things with AI, and tinkered with my own projects. I created a cascading effect with HTML and CSS.
 
 Thoughts: It’s great experimenting with new effects and seeing the results come to life.  
 Link to work: [Coding day 8](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day8)
+
+## Day 9: February 18, 2025
+
+Today’s Progress: Worked on generating div boxes wiht different colors.
+Demonstrated the 'overflow' property on two containers, one with it and one without, to showcase the effect
+
+Thoughts: Learned how this can affect the visual outcome on the screen and how placment of paragraphs matters if using nesting within a div that's hiding the overflow (and would hide the would be paragraph too!) 
+Link to work: [Coding day 8](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day9)
