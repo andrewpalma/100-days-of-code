@@ -76,4 +76,11 @@ Today’s Progress: Worked on generating div boxes wiht different colors.
 Demonstrated the 'overflow' property on two containers, one with it and one without, to showcase the effect
 
 Thoughts: Learned how this can affect the visual outcome on the screen and how placment of paragraphs matters if using nesting within a div that's hiding the overflow (and would hide the would be paragraph too!) 
-Link to work: [Coding day 8](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day9)
+Link to work: [Coding day 9](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day9)
+
+## Day 10: February 19, 2025
+
+Today’s Progress: Worked on figuring out how to link nested html pages and images together in file system.
+
+Thoughts: A good conceptual exercise as I think most websites will use a similar method or structure with how they link their pages and resources 
+Link to work: [Coding day 10](https://github.com/andrewpalma/100-days-of-code/tree/master/Days/Day10)
