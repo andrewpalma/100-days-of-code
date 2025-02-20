@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(179, 215, 210);
+  font-family: Impact;
+  text-align: center;
+}
+img {
+  border: 7px solid black;
+  width: 400px;
+  margin: 10px;
+}
